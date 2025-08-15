@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Connect </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-user-md"></i>
+                <span>Doctor Connect</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#hospitals" class="nav-link">Hospitals</a>
+                <a href="#enrollments" class="nav-link doctor-only">My Enrollments</a>
+                <a href="#certificates" class="nav-link doctor-only">Certificates</a>
+                <a href="#admin" class="nav-link" id="dashboard-link">Dashboard</a>
+                <button class="nav-btn" id="login-btn">Login</button>
+                <button class="nav-btn" id="register-btn">Register</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Connect with Government Hospitals</h1>
+                <p>Enroll in nearby government hospitals and serve your community. Get certified for your valuable service.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="get-started-btn">Get Started</button>
+                    <button class="btn btn-secondary" id="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-hospital-user"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" id="show-register">Register here</a></p>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Register as Doctor</h2>
+            <form id="register-form">
+                <div class="form-group">
+                    <label for="register-name">Full Name</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Email</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Password</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-phone">Phone Number</label>
+                    <input type="tel" id="register-phone" placeholder="Format: 123-456-7890" maxlength="12" required>
+                    <small class="form-help">Enter 10-digit phone number (will be auto-formatted)</small>
+                </div>
+                <div class="form-group">
+                    <label for="register-specialization">Specialization</label>
+                    <select id="register-specialization" required>
+                        <option value="">Select Specialization</option>
+                        <option value="Cardiology">Cardiology</option>
+                        <option value="Neurology">Neurology</option>
+                        <option value="Orthopedics">Orthopedics</option>
+                        <option value="Pediatrics">Pediatrics</option>
+                        <option value="Oncology">Oncology</option>
+                        <option value="Psychiatry">Psychiatry</option>
+                        <option value="General Medicine">General Medicine</option>
+                        <option value="Surgery">Surgery</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="register-license">License Number</label>
+                    <input type="text" id="register-license" placeholder="Format: MD-12345-2020 (e.g., MD-54321-2018)" maxlength="15" required>
+                    <small class="form-help">Format: MD-XXXXX-YYYY (Medical Doctor - 5 digits - Year)</small>
+                </div>
+                <div class="form-group">
+                    <label for="register-experience">Years of Experience</label>
+                    <input type="number" id="register-experience" min="0" max="50" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-address">Address</label>
+                    <textarea id="register-address" placeholder="Enter your complete address (max 200 characters)" maxlength="200" rows="3" required></textarea>
+                    <small class="form-help">Maximum 200 characters allowed</small>
+                </div>
+                <div class="form-group">
+                    <label for="register-city">City</label>
+                    <input type="text" id="register-city" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-state">State</label>
+                    <input type="text" id="register-state" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" id="show-login">Login here</a></p>
+        </div>
+    </div>
+
+    <!-- Hospitals Section -->
+    <section id="hospitals" class="hospitals">
+        <div class="container">
+            <h2>Available Government Hospitals</h2>
+            <div class="search-filter">
+                <input type="text" id="hospital-search" placeholder="Search hospitals by name or location...">
+                <select id="specialization-filter">
+                    <option value="">All Specializations</option>
+                    <option value="Cardiology">Cardiology</option>
+                    <option value="Neurology">Neurology</option>
+                    <option value="Orthopedics">Orthopedics</option>
+                    <option value="Pediatrics">Pediatrics</option>
+                    <option value="Oncology">Oncology</option>
+                    <option value="Psychiatry">Psychiatry</option>
+                </select>
+            </div>
+            <div id="hospitals-grid" class="hospitals-grid">
+                <!-- Hospitals will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Modal -->
+    <div id="enrollment-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Enroll in Hospital</h2>
+            <form id="enrollment-form">
+                <div class="hospital-info" id="enrollment-hospital-info">
+                    <!-- Hospital info will be displayed here -->
+                </div>
+                <div class="form-group">
+                    <label for="enrollment-start-date">Start Date</label>
+                    <input type="date" id="enrollment-start-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollment-end-date">End Date</label>
+                    <input type="date" id="enrollment-end-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollment-hours">Service Hours per Week</label>
+                    <input type="number" id="enrollment-hours" min="1" max="40" required>
+                </div>
+                <div class="form-group">
+                    <label for="enrollment-department">Department</label>
+                    <select id="enrollment-department" required>
+                        <!-- Departments will be loaded here -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="enrollment-notes">Additional Notes</label>
+                    <textarea id="enrollment-notes"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Enrollment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Enrollments Section -->
+    <section id="enrollments" class="enrollments doctor-only">
+        <div class="container">
+            <h2>My Enrollments</h2>
+            <div id="enrollments-list" class="enrollments-list">
+                <!-- Enrollments will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates doctor-only">
+        <div class="container">
+            <h2>My Certificates</h2>
+            <div id="certificates-list" class="certificates-list">
+                <!-- Certificates will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Admin Section -->
+    <section id="admin" class="admin">
+        <div class="container">
+            <h2>Admin Dashboard - Enrollment Management</h2>
+            <p class="section-description">Manage all doctor enrollments. Approve pending enrollments, generate certificates, and track service completion.</p>
+            <div class="admin-controls">
+                <button id="load-pending-enrollments" class="btn btn-primary">Load Pending Enrollments</button>
+                <button id="load-all-enrollments" class="btn btn-secondary">Load All Enrollments</button>
+            </div>
+            <div id="admin-enrollments-list" class="admin-enrollments-list">
+                <!-- Admin enrollments will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Doctor Connect</h3>
+                    <p>Connecting doctors with government hospitals for community service.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#hospitals">Hospitals</a></li>
+                        <li><a href="#enrollments">Enrollments</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@doctorconnect.com</p>
+                    <p>Phone: +91-8317502155</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Doctor Connect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

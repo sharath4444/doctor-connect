@@ -1,0 +1,5490 @@
+[
+  {
+    "name": "DH & MCH King Koti",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "DH & MCH King Koti",
+    "state": "Telangana",
+    "capacity": 200,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "DH Tandur",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "DH Tandur",
+    "state": "Telangana",
+    "capacity": 200,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "Total",
+    "type": "government",
+    "address": "Total",
+    "city": "Total",
+    "state": "Telangana",
+    "capacity": 400,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Utnoor",
+    "type": "government",
+    "address": "Adilabad",
+    "city": "AH Utnoor",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Boath",
+    "type": "government",
+    "address": "Adilabad",
+    "city": "AH Boath",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bhadrachalam",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "AH Bhadrachalam",
+    "state": "Telangana",
+    "capacity": 200,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Ashwaraopeta",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "AH Ashwaraopeta",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Manuguru",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "AH Manuguru",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Yellandu",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "AH Yellandu",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Parkal",
+    "type": "government",
+    "address": "Hanumakonda",
+    "city": "AH Parkal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Nampally",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH Nampally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Malakpet",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH Malakpet",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Golconda",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH Golconda",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH kamatipura",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH kamatipura",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bandlaguda",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH Bandlaguda",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Dabeerpura",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "AH Dabeerpura",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH korutla",
+    "type": "government",
+    "address": "Jagitial",
+    "city": "AH korutla",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Dharmapuri",
+    "type": "government",
+    "address": "Jagitial",
+    "city": "AH Dharmapuri",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH, Station Ghanpur",
+    "type": "government",
+    "address": "Jangoan",
+    "city": "AH, Station Ghanpur",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Alampur",
+    "type": "government",
+    "address": "Jogulamba Gadwal",
+    "city": "AH Alampur",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Banswada",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "AH Banswada",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Yellareddy",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "AH Yellareddy",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bichkunda",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "AH Bichkunda",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Huzurabad",
+    "type": "government",
+    "address": "Karimnagar",
+    "city": "AH Huzurabad",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Choppadandi",
+    "type": "government",
+    "address": "Karimnagar",
+    "city": "AH Choppadandi",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Sathupally",
+    "type": "government",
+    "address": "Khammam",
+    "city": "AH Sathupally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Madhira",
+    "type": "government",
+    "address": "Khammam",
+    "city": "AH Madhira",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Wyra",
+    "type": "government",
+    "address": "Khammam",
+    "city": "AH Wyra",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Thirumalapalem",
+    "type": "government",
+    "address": "Khammam",
+    "city": "AH Thirumalapalem",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Khagznagar",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "AH Khagznagar",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Maripeda",
+    "type": "government",
+    "address": "Mahabubabad",
+    "city": "AH Maripeda",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Thorrur",
+    "type": "government",
+    "address": "Mahabubabad",
+    "city": "AH Thorrur",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Badepally",
+    "type": "government",
+    "address": "Mahabubnagar",
+    "city": "AH Badepally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Devarakadra",
+    "type": "government",
+    "address": "Mahabubnagar",
+    "city": "AH Devarakadra",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bellampally",
+    "type": "government",
+    "address": "Mancherial",
+    "city": "AH Bellampally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Chennuru",
+    "type": "government",
+    "address": "Mancherial",
+    "city": "AH Chennuru",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Narsapur",
+    "type": "government",
+    "address": "Medak",
+    "city": "AH Narsapur",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Uppal",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "AH Uppal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Medchal",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "AH Medchal",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Achampet",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "AH Achampet",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Kollapur",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "AH Kollapur",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Kalvakurthy",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "AH Kalvakurthy",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Miryalguda",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "AH Miryalguda",
+    "state": "Telangana",
+    "capacity": 200,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Nagarjunasagar",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "AH Nagarjunasagar",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Deverkonda",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "AH Deverkonda",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Nakkrekal",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "AH Nakkrekal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Makthal",
+    "type": "government",
+    "address": "Narayanpet",
+    "city": "AH Makthal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bhainsa",
+    "type": "government",
+    "address": "Nirmal",
+    "city": "AH Bhainsa",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bodhan",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "AH Bodhan",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Armoor",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "AH Armoor",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Bheemgal",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "AH Bheemgal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Dharpally",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "AH Dharpally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Peddapally",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "AH Peddapally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Manthani",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "AH Manthani",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Vemulawada",
+    "type": "government",
+    "address": "Rajanna Siricilla",
+    "city": "AH Vemulawada",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Kondapur",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "AH Kondapur",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Vanasthalipuram",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "AH Vanasthalipuram",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Shadnagar",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "AH Shadnagar",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Chevella",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "AH Chevella",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Ibrahimpatnam",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "AH Ibrahimpatnam",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Patancheruvu",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "AH Patancheruvu",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Zaheerabad",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "AH Zaheerabad",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH A. Jogipet",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "AH A. Jogipet",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Narayankhed",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "AH Narayankhed",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Gajwel",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "AH Gajwel",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Dubbak",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "AH Dubbak",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Husnabad",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "AH Husnabad",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Huzurnagar",
+    "type": "government",
+    "address": "Suryapet",
+    "city": "AH Huzurnagar",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Kodad",
+    "type": "government",
+    "address": "Suryapet",
+    "city": "AH Kodad",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Thungathurthy",
+    "type": "government",
+    "address": "Suryapet",
+    "city": "AH Thungathurthy",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Parigi",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "AH Parigi",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Wardhannapet",
+    "type": "government",
+    "address": "Warangal",
+    "city": "AH Wardhannapet",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Yadagirigutta",
+    "type": "government",
+    "address": "Yadadri Bhuvanagiri",
+    "city": "AH Yadagirigutta",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "AH Choutuppal",
+    "type": "government",
+    "address": "Yadadri Bhuvanagiri",
+    "city": "AH Choutuppal",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "Total",
+    "type": "government",
+    "address": "Total",
+    "city": "Total",
+    "state": "Telangana",
+    "capacity": 7050,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH King Koti",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "MCH King Koti",
+    "state": "Telangana",
+    "capacity": 150,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH, Shahalibanda",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "MCH, Shahalibanda",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Dharmapuri",
+    "type": "government",
+    "address": "Jagitial",
+    "city": "MCH Dharmapuri",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Alampur",
+    "type": "government",
+    "address": "Jogulamba Gadwal",
+    "city": "MCH Alampur",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Banswada",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "MCH Banswada",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Medchal",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "MCH Medchal",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Eturnagaram",
+    "type": "government",
+    "address": "Mulugu",
+    "city": "MCH Eturnagaram",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Makthal",
+    "type": "government",
+    "address": "Narayanpet",
+    "city": "MCH Makthal",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Peddapally",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "MCH Peddapally",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Manthani",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "MCH Manthani",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH A. Jogipet",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "MCH A. Jogipet",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Narayankhed",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "MCH Narayankhed",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Gajwel",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "MCH Gajwel",
+    "state": "Telangana",
+    "capacity": 100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Husnabad",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "MCH Husnabad",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "MCH Tandur",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "MCH Tandur",
+    "state": "Telangana",
+    "capacity": 150,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "Total",
+    "type": "government",
+    "address": "Total",
+    "city": "Total",
+    "state": "Telangana",
+    "capacity": 1100,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Amberpet",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Amberpet",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Ameerpet",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Ameerpet",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Janggamet",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Janggamet",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Lalapet",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Lalapet",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Panipura",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Panipura",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Seethapalmandi",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Seethapalmandi",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "UCHC Sriram Nagar",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "UCHC Sriram Nagar",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "Total",
+    "type": "government",
+    "address": "Total",
+    "city": "Total",
+    "state": "Telangana",
+    "capacity": 230,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Palavoncha",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "CHC Palavoncha",
+    "state": "Telangana",
+    "capacity": 1,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Barkas",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CHC Barkas",
+    "state": "Telangana",
+    "capacity": 2,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kairathabad",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CHC Kairathabad",
+    "state": "Telangana",
+    "capacity": 3,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Yakuthpura",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CHC Yakuthpura",
+    "state": "Telangana",
+    "capacity": 4,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Metpally",
+    "type": "government",
+    "address": "Jagitial",
+    "city": "CHC Metpally",
+    "state": "Telangana",
+    "capacity": 5,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Palakurthy",
+    "type": "government",
+    "address": "Jangoan",
+    "city": "CHC Palakurthy",
+    "state": "Telangana",
+    "capacity": 6,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Chityal",
+    "type": "government",
+    "address": "Jayashankar Bhuapalapalli",
+    "city": "CHC Chityal",
+    "state": "Telangana",
+    "capacity": 7,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Manakondur",
+    "type": "government",
+    "address": "Karimnagar",
+    "city": "CHC Manakondur",
+    "state": "Telangana",
+    "capacity": 8,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Penubally",
+    "type": "government",
+    "address": "Khammam",
+    "city": "CHC Penubally",
+    "state": "Telangana",
+    "capacity": 9,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kallur",
+    "type": "government",
+    "address": "Khammam",
+    "city": "CHC Kallur",
+    "state": "Telangana",
+    "capacity": 10,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Toopran",
+    "type": "government",
+    "address": "Medak",
+    "city": "CHC Toopran",
+    "state": "Telangana",
+    "capacity": 11,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC kowdipally",
+    "type": "government",
+    "address": "Medak",
+    "city": "CHC kowdipally",
+    "state": "Telangana",
+    "capacity": 12,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Malkajgiri",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "CHC Malkajgiri",
+    "state": "Telangana",
+    "capacity": 13,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Ghatkesar",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "CHC Ghatkesar",
+    "state": "Telangana",
+    "capacity": 14,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kosgi",
+    "type": "government",
+    "address": "Narayanpet",
+    "city": "CHC Kosgi",
+    "state": "Telangana",
+    "capacity": 15,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Khanapur",
+    "type": "government",
+    "address": "Nirmal",
+    "city": "CHC Khanapur",
+    "state": "Telangana",
+    "capacity": 16,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kotagiri",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Kotagiri",
+    "state": "Telangana",
+    "capacity": 17,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Ellanthakunta",
+    "type": "government",
+    "address": "Rajanna Siricilla",
+    "city": "CHC Ellanthakunta",
+    "state": "Telangana",
+    "capacity": 18,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Maheshwaram",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Maheshwaram",
+    "state": "Telangana",
+    "capacity": 19,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Amangal",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Amangal",
+    "state": "Telangana",
+    "capacity": 20,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kohir",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC Kohir",
+    "state": "Telangana",
+    "capacity": 21,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Nangunoor",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "CHC Nangunoor",
+    "state": "Telangana",
+    "capacity": 22,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kodangal",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "CHC Kodangal",
+    "state": "Telangana",
+    "capacity": 23,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Ramannapet",
+    "type": "government",
+    "address": "Yadadri Bhuvanagiri",
+    "city": "CHC Ramannapet",
+    "state": "Telangana",
+    "capacity": 24,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "TOTAL",
+    "type": "government",
+    "address": "TOTAL",
+    "city": "TOTAL",
+    "state": "Telangana",
+    "capacity": 1200,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Narnoor",
+    "type": "government",
+    "address": "Adilabad",
+    "city": "CHC Narnoor",
+    "state": "Telangana",
+    "capacity": 1,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Bhurgumpadu",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "CHC Bhurgumpadu",
+    "state": "Telangana",
+    "capacity": 2,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Charla",
+    "type": "government",
+    "address": "Bhadradri Kothagudem",
+    "city": "CHC Charla",
+    "state": "Telangana",
+    "capacity": 3,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Kamalapur",
+    "type": "government",
+    "address": "Hanumakonda",
+    "city": "CHC Kamalapur",
+    "state": "Telangana",
+    "capacity": 4,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Addagutta",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CHC Addagutta",
+    "state": "Telangana",
+    "capacity": 5,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Raikal",
+    "type": "government",
+    "address": "Jagitial",
+    "city": "CHC Raikal",
+    "state": "Telangana",
+    "capacity": 6,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Jaffurgad",
+    "type": "government",
+    "address": "Jangoan",
+    "city": "CHC Jaffurgad",
+    "state": "Telangana",
+    "capacity": 7,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Bachanapeta",
+    "type": "government",
+    "address": "Jangoan",
+    "city": "CHC Bachanapeta",
+    "state": "Telangana",
+    "capacity": 8,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Mahadevpur",
+    "type": "government",
+    "address": "Jayashankar Bhuapalapalli",
+    "city": "CHC Mahadevpur",
+    "state": "Telangana",
+    "capacity": 9,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Domakonda",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "CHC Domakonda",
+    "state": "Telangana",
+    "capacity": 10,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Madnur",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "CHC Madnur",
+    "state": "Telangana",
+    "capacity": 11,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Pitlam",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "CHC Pitlam",
+    "state": "Telangana",
+    "capacity": 12,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Gandhari",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "CHC Gandhari",
+    "state": "Telangana",
+    "capacity": 13,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Jukkal",
+    "type": "government",
+    "address": "Kamareddy",
+    "city": "CHC Jukkal",
+    "state": "Telangana",
+    "capacity": 14,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Jammikunta",
+    "type": "government",
+    "address": "Karimnagar",
+    "city": "CHC Jammikunta",
+    "state": "Telangana",
+    "capacity": 15,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Nelakondapalli",
+    "type": "government",
+    "address": "Khammam",
+    "city": "CHC Nelakondapalli",
+    "state": "Telangana",
+    "capacity": 16,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Sirpur",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "CHC Sirpur",
+    "state": "Telangana",
+    "capacity": 17,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Tiryani",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "CHC Tiryani",
+    "state": "Telangana",
+    "capacity": 18,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC, Bejjur",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "CHC, Bejjur",
+    "state": "Telangana",
+    "capacity": 19,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Jainoor",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "CHC Jainoor",
+    "state": "Telangana",
+    "capacity": 20,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Wankhidi",
+    "type": "government",
+    "address": "Kumrambheem Asifabad",
+    "city": "CHC Wankhidi",
+    "state": "Telangana",
+    "capacity": 21,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Gudur",
+    "type": "government",
+    "address": "Mahabubabad",
+    "city": "CHC Gudur",
+    "state": "Telangana",
+    "capacity": 22,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Garla",
+    "type": "government",
+    "address": "Mahabubabad",
+    "city": "CHC Garla",
+    "state": "Telangana",
+    "capacity": 23,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Balanagar",
+    "type": "government",
+    "address": "Mahabubnagar",
+    "city": "CHC Balanagar",
+    "state": "Telangana",
+    "capacity": 24,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Laxettipet",
+    "type": "government",
+    "address": "Mancherial",
+    "city": "CHC Laxettipet",
+    "state": "Telangana",
+    "capacity": 25,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Ramayampet",
+    "type": "government",
+    "address": "Medak",
+    "city": "CHC Ramayampet",
+    "state": "Telangana",
+    "capacity": 26,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Shameerpet",
+    "type": "government",
+    "address": "Medchal Malkajgiri",
+    "city": "CHC Shameerpet",
+    "state": "Telangana",
+    "capacity": 27,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Eturnagaram",
+    "type": "government",
+    "address": "Mulugu",
+    "city": "CHC Eturnagaram",
+    "state": "Telangana",
+    "capacity": 28,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Venkatapuram",
+    "type": "government",
+    "address": "Mulugu",
+    "city": "CHC Venkatapuram",
+    "state": "Telangana",
+    "capacity": 29,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Amrabad",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "CHC Amrabad",
+    "state": "Telangana",
+    "capacity": 30,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Lingala",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "CHC Lingala",
+    "state": "Telangana",
+    "capacity": 31,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC, Uppunuthala",
+    "type": "government",
+    "address": "Nagarkurnool",
+    "city": "CHC, Uppunuthala",
+    "state": "Telangana",
+    "capacity": 32,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Halia",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "CHC Halia",
+    "state": "Telangana",
+    "capacity": 33,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Marriguda",
+    "type": "government",
+    "address": "Nalgonda",
+    "city": "CHC Marriguda",
+    "state": "Telangana",
+    "capacity": 34,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC, Maddur",
+    "type": "government",
+    "address": "Narayanpet",
+    "city": "CHC, Maddur",
+    "state": "Telangana",
+    "capacity": 35,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Mudhole",
+    "type": "government",
+    "address": "Nirmal",
+    "city": "CHC Mudhole",
+    "state": "Telangana",
+    "capacity": 36,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Narsapur G",
+    "type": "government",
+    "address": "Nirmal",
+    "city": "CHC Narsapur G",
+    "state": "Telangana",
+    "capacity": 37,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Balkonda",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Balkonda",
+    "state": "Telangana",
+    "capacity": 38,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Dichpally",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Dichpally",
+    "state": "Telangana",
+    "capacity": 39,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Morthad",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Morthad",
+    "state": "Telangana",
+    "capacity": 40,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Navipet",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Navipet",
+    "state": "Telangana",
+    "capacity": 41,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Varni",
+    "type": "government",
+    "address": "Nizamabad",
+    "city": "CHC Varni",
+    "state": "Telangana",
+    "capacity": 42,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Nandimedaram",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "CHC Nandimedaram",
+    "state": "Telangana",
+    "capacity": 43,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Sulthanabad",
+    "type": "government",
+    "address": "Peddapalli",
+    "city": "CHC Sulthanabad",
+    "state": "Telangana",
+    "capacity": 44,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Gambhiraopet",
+    "type": "government",
+    "address": "Rajanna Siricilla",
+    "city": "CHC Gambhiraopet",
+    "state": "Telangana",
+    "capacity": 45,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Yellareddypeta",
+    "type": "government",
+    "address": "Rajanna Siricilla",
+    "city": "CHC Yellareddypeta",
+    "state": "Telangana",
+    "capacity": 46,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Mustabad",
+    "type": "government",
+    "address": "Rajanna Siricilla",
+    "city": "CHC Mustabad",
+    "state": "Telangana",
+    "capacity": 47,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Hayathnagar",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Hayathnagar",
+    "state": "Telangana",
+    "capacity": 48,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Rajendernagar",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Rajendernagar",
+    "state": "Telangana",
+    "capacity": 49,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Yacharam",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Yacharam",
+    "state": "Telangana",
+    "capacity": 50,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Shamshabad",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Shamshabad",
+    "state": "Telangana",
+    "capacity": 51,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Jalpally",
+    "type": "government",
+    "address": "Rangareddy",
+    "city": "CHC Jalpally",
+    "state": "Telangana",
+    "capacity": 52,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Sadashivpet",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC Sadashivpet",
+    "state": "Telangana",
+    "capacity": 53,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC, Karasaguthi",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC, Karasaguthi",
+    "state": "Telangana",
+    "capacity": 54,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Mirzapur",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC Mirzapur",
+    "state": "Telangana",
+    "capacity": 55,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC, Kalhar",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC, Kalhar",
+    "state": "Telangana",
+    "capacity": 56,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Vatpalli",
+    "type": "government",
+    "address": "Sangareddy",
+    "city": "CHC Vatpalli",
+    "state": "Telangana",
+    "capacity": 57,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Cheriyal",
+    "type": "government",
+    "address": "Siddipet",
+    "city": "CHC Cheriyal",
+    "state": "Telangana",
+    "capacity": 58,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Nadigudem",
+    "type": "government",
+    "address": "Suryapet",
+    "city": "CHC Nadigudem",
+    "state": "Telangana",
+    "capacity": 59,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Marpally",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "CHC Marpally",
+    "state": "Telangana",
+    "capacity": 60,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Basheerabad",
+    "type": "government",
+    "address": "Vikarabad",
+    "city": "CHC Basheerabad",
+    "state": "Telangana",
+    "capacity": 61,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Revally",
+    "type": "government",
+    "address": "Wanaparthy",
+    "city": "CHC Revally",
+    "state": "Telangana",
+    "capacity": 62,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Athmakur",
+    "type": "government",
+    "address": "Wanaparthy",
+    "city": "CHC Athmakur",
+    "state": "Telangana",
+    "capacity": 63,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Khilaghanpur",
+    "type": "government",
+    "address": "Wanaparthy",
+    "city": "CHC Khilaghanpur",
+    "state": "Telangana",
+    "capacity": 64,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Veepangandla",
+    "type": "government",
+    "address": "Wanaparthy",
+    "city": "CHC Veepangandla",
+    "state": "Telangana",
+    "capacity": 65,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CHC Alair",
+    "type": "government",
+    "address": "Yadadri Bhuvanagiri",
+    "city": "CHC Alair",
+    "state": "Telangana",
+    "capacity": 66,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "TOTAL",
+    "type": "government",
+    "address": "TOTAL",
+    "city": "TOTAL",
+    "state": "Telangana",
+    "capacity": 1980,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CD Secretariat",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CD Secretariat",
+    "state": "Telangana",
+    "capacity": 32,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CD High Court",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CD High Court",
+    "state": "Telangana",
+    "capacity": 33,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CD Old MLA Quarters",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CD Old MLA Quarters",
+    "state": "Telangana",
+    "capacity": 34,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "CD New MLA Quarters",
+    "type": "government",
+    "address": "Hyderabad",
+    "city": "CD New MLA Quarters",
+    "state": "Telangana",
+    "capacity": 35,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  },
+  {
+    "name": "Total.",
+    "type": "government",
+    "address": "Total.",
+    "city": "Total.",
+    "state": "Telangana",
+    "capacity": 0,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Oncology",
+      "Psychiatry",
+      "Surgery",
+      "Emergency Medicine",
+      "Radiology",
+      "Anesthesiology",
+      "Urology"
+    ],
+    "facilities": [
+      "Super Specialty Units",
+      "Advanced Cardiac Center",
+      "Cancer Treatment Center",
+      "Organ Transplant Unit",
+      "Advanced Imaging Center",
+      "Clinical Research Unit"
+    ]
+  }
+]
