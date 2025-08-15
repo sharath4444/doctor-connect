@@ -286,11 +286,8 @@ async function handleLogin(e) {
             await loadEnrollments();
             await loadCertificates();
         } else {
-            // Show specific error message
             const errorMessage = data.error || data.message || 'Invalid email or password';
             showMessage(errorMessage, 'error');
-            
-            // Clear password field on error
             document.getElementById('login-password').value = '';
             document.getElementById('login-password').focus();
         }
@@ -364,7 +361,6 @@ async function handleRegister(e) {
             await loadEnrollments();
             await loadCertificates();
         } else {
-            // Show specific error message
             const errorMessage = data.error || data.message || 'Registration failed. Please check your information.';
             showMessage(errorMessage, 'error');
         }
@@ -379,7 +375,6 @@ function checkAuthStatus() {
     if (token) {
         loadUserData().catch(error => {
             console.error('Auth check failed, will retry:', error);
-            // Retry after 2 seconds for network issues
             setTimeout(() => {
                 if (localStorage.getItem('token')) {
                     loadUserData();
@@ -393,11 +388,9 @@ async function loadUserData() {
     try {
         const token = localStorage.getItem('token');
         if (!token) {
-            console.log('No token found');
             return;
         }
 
-        console.log('🔍 Loading user data...');
         const response = await fetch(`${API_BASE_URL}/doctors/profile`, {
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -407,33 +400,16 @@ async function loadUserData() {
         if (response.ok) {
             const data = await response.json();
             currentUser = data.doctor;
-            console.log('✅ User data loaded:', currentUser.name, 'Role:', currentUser.role);
             updateUIAfterLogin();
-            
-            // Load data in sequence with better error handling
-            console.log('🏥 Loading hospitals...');
             await loadHospitals();
-            
-            console.log('📋 Loading enrollments...');
             await loadEnrollments();
-            
-            console.log('📜 Loading certificates...');
             await loadCertificates();
-            
-            console.log('✅ All data loaded successfully');
         } else if (response.status === 401) {
-            // Only remove token on authentication error
-            console.log('Token expired or invalid, logging out');
             localStorage.removeItem('token');
             currentUser = null;
-            // Don't reload page, just show login state
-        } else {
-            // For other errors (500, network issues), keep the token and try again later
-            console.log('Server error, keeping token for retry');
         }
     } catch (error) {
         console.error('Error loading user data:', error);
-        // Don't remove token on network errors, just log the error
     }
 }
 
@@ -496,67 +472,26 @@ function updateUIAfterLogin() {
 }
 
 function logout() {
-    console.log('Logout function called'); // Debug log
-    
     try {
-        // Clear all stored data
         localStorage.removeItem('token');
         localStorage.removeItem('doctorUser');
         sessionStorage.clear();
         currentUser = null;
-        
-        console.log('Data cleared'); // Debug log
-        
-        // Remove user info from UI
         const existingUserInfo = document.querySelectorAll('.user-info');
-        existingUserInfo.forEach(div => {
-            console.log('Removing user info div:', div);
-            div.remove();
-        });
-        
-        // Show auth buttons again
+        existingUserInfo.forEach(div => div.remove());
         const authButtons = document.querySelectorAll('#login-btn, #register-btn');
-        authButtons.forEach(btn => {
-            btn.style.display = 'inline-block';
-            console.log('Showing auth button:', btn.id);
-        });
-        
-        // Hide protected sections
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.style.display = 'none';
-        });
-        
-        // Hide dashboard link specifically
+        authButtons.forEach(btn => btn.style.display = 'inline-block');
+        document.querySelectorAll('.nav-link').forEach(link => link.style.display = 'none');
         const dashboardLink = document.getElementById('dashboard-link');
-        if (dashboardLink) {
-            dashboardLink.style.display = 'none';
-        }
-        
-        // Hide admin section
+        if (dashboardLink) dashboardLink.style.display = 'none';
         document.getElementById('admin').style.display = 'none';
-        
-        // Hide admin features
-        document.querySelectorAll('.admin-only').forEach(element => {
-            element.style.display = 'none';
-        });
-        
-        // Hide doctor-only sections
-        document.querySelectorAll('.doctor-only').forEach(element => {
-            element.style.display = 'none';
-        });
-        
-        // Clear any user data
+        document.querySelectorAll('.admin-only').forEach(element => element.style.display = 'none');
+        document.querySelectorAll('.doctor-only').forEach(element => element.style.display = 'none');
         enrollments = [];
         certificates = [];
-        
-        console.log('About to reload page'); // Debug log
-        
-        // Reload the page to reset everything
         window.location.reload();
-        
     } catch (error) {
         console.error('Error in logout function:', error);
-        // Fallback: force reload
         window.location.reload();
     }
 }
@@ -728,51 +663,34 @@ async function handleEnrollment(e) {
 
 async function loadEnrollments() {
     if (!currentUser) {
-        console.log('❌ No current user, skipping enrollments load');
         return;
     }
-
     try {
-        console.log('📋 Fetching enrollments for user:', currentUser.name);
         const response = await fetch(`${API_BASE_URL}/enrollments`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
         });
-
         const data = await response.json();
-        console.log('📋 Enrollments API response:', response.status, data);
-
         if (response.ok) {
             enrollments = data.enrollments;
-            console.log('📋 Loaded enrollments:', enrollments.length);
             displayEnrollments();
-        } else {
-            console.error('❌ Failed to load enrollments:', data);
         }
     } catch (error) {
-        console.error('❌ Error loading enrollments:', error);
+        console.error('Error loading enrollments:', error);
     }
 }
 
 function displayEnrollments() {
     const container = document.getElementById('enrollments-list');
-    console.log('📋 Displaying enrollments:', enrollments.length, enrollments);
-    
     if (enrollments.length === 0) {
         container.innerHTML = '<p class="no-data">No enrollments found.</p>';
-        console.log('📋 No enrollments to display');
         return;
     }
-
     container.innerHTML = enrollments.map(enrollment => {
-        // Use the populated hospital data from the backend
         const hospital = enrollment.hospital_id;
-        console.log('📋 Enrollment hospital data:', hospital);
-        
         const startDate = new Date(enrollment.start_date).toLocaleDateString();
         const endDate = new Date(enrollment.end_date).toLocaleDateString();
-        
         return `
             <div class="enrollment-card">
                 <div class="enrollment-header">
@@ -790,56 +708,37 @@ function displayEnrollments() {
             </div>
         `;
     }).join('');
-    
-    console.log('📋 Enrollments displayed successfully');
 }
 
-// Certificate functions
 async function loadCertificates() {
     if (!currentUser) {
-        console.log('❌ No current user, skipping certificates load');
         return;
     }
-
     try {
-        console.log('📜 Fetching certificates for user:', currentUser.name);
         const response = await fetch(`${API_BASE_URL}/certificates`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
             }
         });
-
         const data = await response.json();
-        console.log('📜 Certificates API response:', response.status, data);
-
         if (response.ok) {
             certificates = data.certificates;
-            console.log('📜 Loaded certificates:', certificates.length);
             displayCertificates();
-        } else {
-            console.error('❌ Failed to load certificates:', data);
         }
     } catch (error) {
-        console.error('❌ Error loading certificates:', error);
+        console.error('Error loading certificates:', error);
     }
 }
 
 function displayCertificates() {
     const container = document.getElementById('certificates-list');
-    console.log('📜 Displaying certificates:', certificates.length, certificates);
-    
     if (certificates.length === 0) {
         container.innerHTML = '<p class="no-data">No certificates found.</p>';
-        console.log('📜 No certificates to display');
         return;
     }
-
     container.innerHTML = certificates.map(certificate => {
-        // Use the populated hospital data from the backend
         const hospital = certificate.hospital_id;
-        console.log('📜 Certificate hospital data:', hospital);
         const issueDate = new Date(certificate.issue_date).toLocaleDateString();
-        
         return `
             <div class="certificate-card">
                 <h3>Service Certificate</h3>
@@ -849,9 +748,9 @@ function displayCertificates() {
                 <p><strong>Total Hours:</strong> ${certificate.total_hours}</p>
                 <p><strong>Issue Date:</strong> ${issueDate}</p>
                 <p><strong>Certificate Number:</strong> ${certificate.certificate_number}</p>
-                                 <button class="download-btn" data-certificate-id="${certificate._id}">
-                     <i class="fas fa-download"></i> Download Certificate
-                 </button>
+                <button class="download-btn" data-certificate-id="${certificate._id}">
+                    <i class="fas fa-download"></i> Download Certificate
+                </button>
             </div>
         `;
     }).join('');
