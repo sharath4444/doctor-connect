@@ -233,20 +233,28 @@ function setupEventListeners() {
         }
     });
 
-    // Admin buttons
-    document.getElementById('load-pending-enrollments').addEventListener('click', loadPendingEnrollments);
-    document.getElementById('load-all-enrollments').addEventListener('click', loadAllEnrollments);
+    // Admin buttons (guard missing elements on non-admin users or pages)
+    const pendingBtn = document.getElementById('load-pending-enrollments');
+    if (pendingBtn) pendingBtn.addEventListener('click', loadPendingEnrollments);
+    const allBtn = document.getElementById('load-all-enrollments');
+    if (allBtn) allBtn.addEventListener('click', loadAllEnrollments);
 
-    // Refresh buttons
-    document.getElementById('refresh-enrollments').addEventListener('click', async () => {
-        console.log('🔄 Manual refresh of enrollments requested');
-        await loadEnrollments();
-    });
+    // Refresh buttons (these may not exist in current UI, guard access)
+    const refreshEnrollmentsBtn = document.getElementById('refresh-enrollments');
+    if (refreshEnrollmentsBtn) {
+        refreshEnrollmentsBtn.addEventListener('click', async () => {
+            console.log('🔄 Manual refresh of enrollments requested');
+            await loadEnrollments();
+        });
+    }
     
-    document.getElementById('refresh-certificates').addEventListener('click', async () => {
-        console.log('🔄 Manual refresh of certificates requested');
-        await loadCertificates();
-    });
+    const refreshCertificatesBtn = document.getElementById('refresh-certificates');
+    if (refreshCertificatesBtn) {
+        refreshCertificatesBtn.addEventListener('click', async () => {
+            console.log('🔄 Manual refresh of certificates requested');
+            await loadCertificates();
+        });
+    }
 
     // Form validation and character counters
     setupFormValidation();

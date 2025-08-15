@@ -78,16 +78,18 @@ exports.handler = async (event, context) => {
         await connectDB();
 
         const { path, httpMethod, body: requestBody, headers: requestHeaders } = event;
-        
+
         // Parse body
         const body = requestBody ? JSON.parse(requestBody) : {};
         
         // Route handling
+        // Support both "/api/..." (via redirects) and "/.netlify/functions/api/..." direct function paths
         const pathSegments = path.split('/').filter(Boolean);
+        const apiIndex = pathSegments.indexOf('api');
+        const route = apiIndex !== -1 ? pathSegments.slice(apiIndex + 1).join('/') : '';
         
         // API routes
-        if (pathSegments[0] === 'api') {
-            const route = pathSegments.slice(1).join('/');
+        if (apiIndex !== -1) {
             
             // Auth routes
             if (route === 'auth/register' && httpMethod === 'POST') {
@@ -98,7 +100,8 @@ exports.handler = async (event, context) => {
                 return await handleLogin(body, headers);
             }
             
-            if (route === 'auth/profile' && httpMethod === 'GET') {
+            // Support both /auth/profile and /doctors/profile for compatibility with Express routes
+            if ((route === 'auth/profile' || route === 'doctors/profile') && httpMethod === 'GET') {
                 return await handleGetProfile(requestHeaders, headers);
             }
             
