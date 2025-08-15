@@ -902,16 +902,44 @@ async function downloadCertificate(certificateId) {
         });
 
         if (response.ok) {
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `certificate-${certificateId}.pdf`;
-            document.body.appendChild(a);
-            a.click();
-            window.URL.revokeObjectURL(url);
-            document.body.removeChild(a);
+            // When Netlify function returns base64-encoded PDF
+            const contentType = response.headers.get('Content-Type') || '';
+            if (contentType.includes('application/pdf')) {
+                const blob = await response.blob();
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `certificate-${certificateId}.pdf`;
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                document.body.removeChild(a);
+            } else {
+                // Some platforms may return base64 explicitly in JSON
+                const data = await response.json();
+                if (data && data.base64) {
+                    const byteCharacters = atob(data.base64);
+                    const byteNumbers = new Array(byteCharacters.length);
+                    for (let i = 0; i < byteCharacters.length; i++) {
+                        byteNumbers[i] = byteCharacters.charCodeAt(i);
+                    }
+                    const byteArray = new Uint8Array(byteNumbers);
+                    const blob = new Blob([byteArray], { type: 'application/pdf' });
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `certificate-${certificateId}.pdf`;
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                    document.body.removeChild(a);
+                } else {
+                    showMessage('Failed to download certificate', 'error');
+                }
+            }
         } else {
+            const errorText = await response.text().catch(() => '');
+            console.error('Download failed:', response.status, errorText);
             showMessage('Failed to download certificate', 'error');
         }
     } catch (error) {

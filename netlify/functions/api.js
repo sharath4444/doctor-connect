@@ -138,6 +138,12 @@ exports.handler = async (event, context) => {
             if (route === 'certificates' && httpMethod === 'GET') {
                 return await handleGetCertificates(requestHeaders, headers);
             }
+
+            // Download certificate: certificates/:id/download
+            if (route.startsWith('certificates/') && route.endsWith('/download') && httpMethod === 'GET') {
+                const certId = route.split('/')[1];
+                return await handleDownloadCertificate(certId, requestHeaders);
+            }
             
             // Health check route
             if (route === 'health' && httpMethod === 'GET') {
@@ -547,4 +553,123 @@ async function handleGetCertificates(requestHeaders, headers) {
             body: JSON.stringify({ error: 'Failed to fetch certificates', message: error.message })
         };
     }
+}
+
+// Download certificate helper (serverless)
+async function handleDownloadCertificate(certificateId, requestHeaders) {
+    try {
+        const doctor = await authenticateToken({ headers: requestHeaders });
+
+        const certificate = await Certificate.findOne({
+            _id: certificateId,
+            doctor_id: doctor._id
+        });
+
+        if (!certificate) {
+            return {
+                statusCode: 404,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ error: 'Certificate not found' })
+            };
+        }
+
+        // If file exists on disk (e.g., when using Express), return it
+        if (certificate.file_path && fs.existsSync(certificate.file_path)) {
+            const fileBuffer = fs.readFileSync(certificate.file_path);
+            return {
+                statusCode: 200,
+                headers: {
+                    'Content-Type': 'application/pdf',
+                    'Content-Disposition': `attachment; filename="certificate-${certificate.certificate_number}.pdf"`
+                },
+                isBase64Encoded: true,
+                body: fileBuffer.toString('base64')
+            };
+        }
+
+        // Netlify functions are stateless: generate PDF on the fly
+        const enrollment = await Enrollment.findById(certificate.enrollment_id)
+            .populate('doctor_id hospital_id');
+
+        if (!enrollment) {
+            return {
+                statusCode: 404,
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ error: 'Related enrollment not found' })
+            };
+        }
+
+        const pdfBuffer = await generateCertificatePdfBuffer(certificate, enrollment);
+        return {
+            statusCode: 200,
+            headers: {
+                'Content-Type': 'application/pdf',
+                'Content-Disposition': `attachment; filename="certificate-${certificate.certificate_number}.pdf"`
+            },
+            isBase64Encoded: true,
+            body: pdfBuffer.toString('base64')
+        };
+    } catch (error) {
+        return {
+            statusCode: 500,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ error: 'Failed to download certificate', message: error.message })
+        };
+    }
+}
+
+function generateCertificatePdfBuffer(certificate, enrollment) {
+    return new Promise((resolve, reject) => {
+        try {
+            const doc = new PDFDocument({
+                size: 'A4',
+                margins: { top: 50, bottom: 50, left: 50, right: 50 }
+            });
+
+            const chunks = [];
+            doc.on('data', (d) => chunks.push(d));
+            doc.on('end', () => resolve(Buffer.concat(chunks)));
+
+            const issueDate = certificate.issue_date ? new Date(certificate.issue_date) : new Date();
+            const servicePeriod = certificate.service_period || `${new Date(enrollment.start_date).toLocaleDateString()} - ${new Date(enrollment.end_date).toLocaleDateString()}`;
+            const totalHours = certificate.total_hours || (enrollment.service_hours ? enrollment.service_hours * 4 : 0);
+
+            // Header
+            doc.fontSize(24).font('Helvetica-Bold').text('CERTIFICATE OF SERVICE', { align: 'center' }).moveDown();
+            doc.fontSize(16).font('Helvetica-Bold').text('Doctor Connect - Government Hospital Service', { align: 'center' }).moveDown(2);
+
+            // Meta
+            doc.fontSize(12).font('Helvetica').text(`Certificate Number: ${certificate.certificate_number}`).moveDown();
+            doc.text(`Issue Date: ${issueDate.toLocaleDateString()}`).moveDown(2);
+
+            // Name
+            doc.fontSize(14).font('Helvetica-Bold').text('This is to certify that', { align: 'center' }).moveDown();
+            doc.fontSize(16).font('Helvetica-Bold').text(`${enrollment.doctor_id?.name || 'Doctor'}`, { align: 'center' }).moveDown();
+            doc.fontSize(14).font('Helvetica').text(`License Number: ${enrollment.doctor_id?.license_number || '-'}`).moveDown();
+            doc.fontSize(14).font('Helvetica').text(`Specialization: ${enrollment.doctor_id?.specialization || '-'}`).moveDown(2);
+
+            // Hospital
+            doc.fontSize(14).font('Helvetica').text('Has successfully completed their service at:').moveDown();
+            doc.fontSize(16).font('Helvetica-Bold').text(`${enrollment.hospital_id?.name || 'Hospital'}`, { align: 'center' }).moveDown();
+            const addr = [
+                enrollment.hospital_id?.address,
+                [enrollment.hospital_id?.city, enrollment.hospital_id?.state].filter(Boolean).join(', ')
+            ].filter(Boolean).join('\n');
+            if (addr) doc.fontSize(14).font('Helvetica').text(addr).moveDown(2);
+
+            // Details
+            doc.fontSize(14).font('Helvetica').text(`Service Period: ${servicePeriod}`).moveDown();
+            doc.fontSize(14).font('Helvetica').text(`Department: ${certificate.department || enrollment.department || '-'}`).moveDown();
+            doc.fontSize(14).font('Helvetica').text(`Total Hours Served: ${totalHours} hours`).moveDown(3);
+
+            // Footer
+            doc.fontSize(10).font('Helvetica').text('This is a digitally generated certificate and does not require a physical signature.').moveDown();
+            doc.fontSize(10).font('Helvetica').text('For verification, please contact: info@doctorconnect.com').moveDown();
+            doc.fontSize(8).font('Helvetica').text(`Verification Code: ${certificate.certificate_number}`, { align: 'center' });
+
+            doc.end();
+        } catch (err) {
+            reject(err);
+        }
+    });
 }
