@@ -464,6 +464,9 @@ function updateUIAfterLogin() {
         if (dashboardLink) {
             dashboardLink.style.display = 'none';
         }
+        // Show both enrollments and certificates sections
+        document.getElementById('enrollments').style.display = 'block';
+        document.getElementById('certificates').style.display = 'block';
     }
 
     // Don't show admin section by default - only when user clicks dashboard
