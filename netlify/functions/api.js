@@ -135,6 +135,19 @@ exports.handler = async (event, context) => {
             if (route === 'certificates' && httpMethod === 'GET') {
                 return await handleGetCertificates(requestHeaders, headers);
             }
+            
+            // Health check route
+            if (route === 'health' && httpMethod === 'GET') {
+                return {
+                    statusCode: 200,
+                    headers,
+                    body: JSON.stringify({ 
+                        status: 'OK', 
+                        message: 'Doctor Connect API is running',
+                        timestamp: new Date().toISOString()
+                    })
+                };
+            }
         }
         
         // Default response

@@ -4,8 +4,10 @@ let hospitals = [];
 let enrollments = [];
 let certificates = [];
 
-// API Base URL
-const API_BASE_URL = '/api';
+// API Base URL - Detect environment and set appropriate base URL
+const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+    ? '/api' 
+    : '/.netlify/functions/api';
 
 // DOM Elements
 const loginBtn = document.getElementById('login-btn');
@@ -45,6 +47,17 @@ function showSection(sectionId) {
             // Hide admin section for regular doctors
             document.getElementById('admin').style.display = 'none';
         }
+        
+        // Load data for specific sections if needed
+        if (sectionId === 'enrollments' && enrollments.length === 0) {
+            console.log('Loading enrollments for section display');
+            loadEnrollments();
+        }
+        
+        if (sectionId === 'certificates' && certificates.length === 0) {
+            console.log('Loading certificates for section display');
+            loadCertificates();
+        }
     }
 }
 
@@ -71,6 +84,8 @@ function handleDashboardClick(e) {
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOM loaded, initializing application...');
+    
     // Hide admin section and dashboard link by default
     document.getElementById('admin').style.display = 'none';
     const dashboardLink = document.getElementById('dashboard-link');
@@ -90,6 +105,11 @@ document.addEventListener('DOMContentLoaded', function() {
     setTimeout(() => {
         checkAuthStatus();
     }, 100);
+    
+    // Add error handling for unhandled promise rejections
+    window.addEventListener('unhandledrejection', function(event) {
+        console.error('Unhandled promise rejection:', event.reason);
+    });
 });
 
 // Initialize application
@@ -372,7 +392,34 @@ async function handleRegister(e) {
 
 function checkAuthStatus() {
     const token = localStorage.getItem('token');
-    if (token) {
+    const userStr = localStorage.getItem('doctorUser');
+    
+    console.log('Checking auth status...');
+    console.log('Token exists:', !!token);
+    console.log('User data exists:', !!userStr);
+    
+    if (token && userStr) {
+        try {
+            currentUser = JSON.parse(userStr);
+            console.log('Restored user from localStorage:', currentUser);
+            updateUIAfterLogin();
+            
+            // Load data in background
+            loadUserData().catch(error => {
+                console.error('Auth check failed, will retry:', error);
+                setTimeout(() => {
+                    if (localStorage.getItem('token')) {
+                        loadUserData();
+                    }
+                }, 2000);
+            });
+        } catch (error) {
+            console.error('Error parsing user data:', error);
+            localStorage.removeItem('doctorUser');
+            localStorage.removeItem('token');
+        }
+    } else if (token) {
+        // Token exists but no user data, try to load user data
         loadUserData().catch(error => {
             console.error('Auth check failed, will retry:', error);
             setTimeout(() => {
@@ -381,6 +428,9 @@ function checkAuthStatus() {
                 }
             }, 2000);
         });
+    } else {
+        console.log('No authentication found');
+        updateUIAfterLogout();
     }
 }
 
@@ -388,25 +438,40 @@ async function loadUserData() {
     try {
         const token = localStorage.getItem('token');
         if (!token) {
+            console.log('No token found, skipping user data load');
             return;
         }
 
+        console.log('Loading user data from:', `${API_BASE_URL}/doctors/profile`);
         const response = await fetch(`${API_BASE_URL}/doctors/profile`, {
             headers: {
-                'Authorization': `Bearer ${token}`
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
             }
         });
 
+        console.log('User data response status:', response.status);
+
         if (response.ok) {
             const data = await response.json();
+            console.log('User data received:', data);
             currentUser = data.doctor;
             updateUIAfterLogin();
-            await loadHospitals();
-            await loadEnrollments();
-            await loadCertificates();
+            
+            // Load data in parallel for better performance
+            await Promise.all([
+                loadHospitals(),
+                loadEnrollments(),
+                loadCertificates()
+            ]);
         } else if (response.status === 401) {
+            console.log('Token expired, clearing user data');
             localStorage.removeItem('token');
+            localStorage.removeItem('doctorUser');
             currentUser = null;
+            updateUIAfterLogout();
+        } else {
+            console.error('Failed to load user data:', response.status);
         }
     } catch (error) {
         console.error('Error loading user data:', error);
@@ -480,16 +545,7 @@ function logout() {
         localStorage.removeItem('doctorUser');
         sessionStorage.clear();
         currentUser = null;
-        const existingUserInfo = document.querySelectorAll('.user-info');
-        existingUserInfo.forEach(div => div.remove());
-        const authButtons = document.querySelectorAll('#login-btn, #register-btn');
-        authButtons.forEach(btn => btn.style.display = 'inline-block');
-        document.querySelectorAll('.nav-link').forEach(link => link.style.display = 'none');
-        const dashboardLink = document.getElementById('dashboard-link');
-        if (dashboardLink) dashboardLink.style.display = 'none';
-        document.getElementById('admin').style.display = 'none';
-        document.querySelectorAll('.admin-only').forEach(element => element.style.display = 'none');
-        document.querySelectorAll('.doctor-only').forEach(element => element.style.display = 'none');
+        updateUIAfterLogout();
         enrollments = [];
         certificates = [];
         window.location.reload();
@@ -497,6 +553,28 @@ function logout() {
         console.error('Error in logout function:', error);
         window.location.reload();
     }
+}
+
+function updateUIAfterLogout() {
+    // Remove user info from navigation
+    const existingUserInfo = document.querySelectorAll('.user-info');
+    existingUserInfo.forEach(div => div.remove());
+    
+    // Show auth buttons
+    const authButtons = document.querySelectorAll('#login-btn, #register-btn');
+    authButtons.forEach(btn => btn.style.display = 'inline-block');
+    
+    // Hide navigation links
+    document.querySelectorAll('.nav-link').forEach(link => link.style.display = 'none');
+    
+    // Hide dashboard link
+    const dashboardLink = document.getElementById('dashboard-link');
+    if (dashboardLink) dashboardLink.style.display = 'none';
+    
+    // Hide admin section
+    document.getElementById('admin').style.display = 'none';
+    document.querySelectorAll('.admin-only').forEach(element => element.style.display = 'none');
+    document.querySelectorAll('.doctor-only').forEach(element => element.style.display = 'none');
 }
 
 // Hospital functions
@@ -666,18 +744,42 @@ async function handleEnrollment(e) {
 
 async function loadEnrollments() {
     if (!currentUser) {
+        console.log('No current user, skipping enrollment load');
         return;
     }
+    
+    const token = localStorage.getItem('token');
+    if (!token) {
+        console.error('No authentication token found');
+        return;
+    }
+    
     try {
+        console.log('Loading enrollments from:', `${API_BASE_URL}/enrollments`);
         const response = await fetch(`${API_BASE_URL}/enrollments`, {
             headers: {
-                'Authorization': `Bearer ${localStorage.getItem('token')}`
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
             }
         });
-        const data = await response.json();
+        
+        console.log('Enrollments response status:', response.status);
+        
         if (response.ok) {
-            enrollments = data.enrollments;
+            const data = await response.json();
+            console.log('Enrollments data:', data);
+            enrollments = data.enrollments || [];
             displayEnrollments();
+        } else {
+            const errorData = await response.json();
+            console.error('Failed to load enrollments:', errorData);
+            if (response.status === 401) {
+                console.log('Token expired, clearing user data');
+                localStorage.removeItem('token');
+                localStorage.removeItem('doctorUser');
+                currentUser = null;
+                location.reload();
+            }
         }
     } catch (error) {
         console.error('Error loading enrollments:', error);
@@ -715,18 +817,42 @@ function displayEnrollments() {
 
 async function loadCertificates() {
     if (!currentUser) {
+        console.log('No current user, skipping certificate load');
         return;
     }
+    
+    const token = localStorage.getItem('token');
+    if (!token) {
+        console.error('No authentication token found');
+        return;
+    }
+    
     try {
+        console.log('Loading certificates from:', `${API_BASE_URL}/certificates`);
         const response = await fetch(`${API_BASE_URL}/certificates`, {
             headers: {
-                'Authorization': `Bearer ${localStorage.getItem('token')}`
+                'Authorization': `Bearer ${token}`,
+                'Content-Type': 'application/json'
             }
         });
-        const data = await response.json();
+        
+        console.log('Certificates response status:', response.status);
+        
         if (response.ok) {
-            certificates = data.certificates;
+            const data = await response.json();
+            console.log('Certificates data:', data);
+            certificates = data.certificates || [];
             displayCertificates();
+        } else {
+            const errorData = await response.json();
+            console.error('Failed to load certificates:', errorData);
+            if (response.status === 401) {
+                console.log('Token expired, clearing user data');
+                localStorage.removeItem('token');
+                localStorage.removeItem('doctorUser');
+                currentUser = null;
+                location.reload();
+            }
         }
     } catch (error) {
         console.error('Error loading certificates:', error);
@@ -1388,3 +1514,28 @@ style.textContent = `
       }
   `;
 document.head.appendChild(style);
+
+// Utility function to test API connectivity
+async function testAPIConnectivity() {
+    try {
+        console.log('Testing API connectivity...');
+        const response = await fetch(`${API_BASE_URL}/health`);
+        if (response.ok) {
+            console.log('✅ API is accessible');
+            return true;
+        } else {
+            console.error('❌ API returned error status:', response.status);
+            return false;
+        }
+    } catch (error) {
+        console.error('❌ API connectivity test failed:', error);
+        return false;
+    }
+}
+
+// Test API connectivity on page load
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(() => {
+        testAPIConnectivity();
+    }, 1000);
+});
