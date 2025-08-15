@@ -92,20 +92,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }, 100);
 });
 
-// On page load, restore login state
-document.addEventListener('DOMContentLoaded', () => {
-    const user = localStorage.getItem('doctorUser');
-    if (user) {
-        // Update UI to show logged-in state
-        // e.g., hide login/register buttons, show doctor-only sections
-    }
-});
-
 // Initialize application
 function initializeApp() {
     // Load hospitals on page load
     loadHospitals();
-    
+
+    // Restore user info from localStorage
+    const userStr = localStorage.getItem('doctorUser');
+    if (userStr) {
+        currentUser = JSON.parse(userStr);
+        updateUIAfterLogin();
+    }
+
     // Check if user is logged in
     const token = localStorage.getItem('token');
     if (token) {
@@ -281,12 +279,12 @@ async function handleLogin(e) {
         if (response.ok) {
             localStorage.setItem('token', data.token);
             currentUser = data.doctor;
+            localStorage.setItem('doctorUser', JSON.stringify(data.doctor));
             hideModal(loginModal);
             updateUIAfterLogin();
             showMessage('Login successful!', 'success');
-
-            // On login success:
-            handleLoginSuccess(data.doctor);
+            await loadEnrollments();
+            await loadCertificates();
         } else {
             // Show specific error message
             const errorMessage = data.error || data.message || 'Invalid email or password';
@@ -359,9 +357,12 @@ async function handleRegister(e) {
         if (response.ok) {
             localStorage.setItem('token', data.token);
             currentUser = data.doctor;
+            localStorage.setItem('doctorUser', JSON.stringify(data.doctor));
             hideModal(registerModal);
             updateUIAfterLogin();
             showMessage('Registration successful!', 'success');
+            await loadEnrollments();
+            await loadCertificates();
         } else {
             // Show specific error message
             const errorMessage = data.error || data.message || 'Registration failed. Please check your information.';
@@ -500,6 +501,7 @@ function logout() {
     try {
         // Clear all stored data
         localStorage.removeItem('token');
+        localStorage.removeItem('doctorUser');
         sessionStorage.clear();
         currentUser = null;
         
