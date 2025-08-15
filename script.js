@@ -85,7 +85,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
     initializeApp();
     setupEventListeners();
-    checkAuthStatus();
+    
+    // Add a small delay to ensure everything is loaded before checking auth
+    setTimeout(() => {
+        checkAuthStatus();
+    }, 100);
+});
+
+// On page load, restore login state
+document.addEventListener('DOMContentLoaded', () => {
+    const user = localStorage.getItem('doctorUser');
+    if (user) {
+        // Update UI to show logged-in state
+        // e.g., hide login/register buttons, show doctor-only sections
+    }
 });
 
 // Initialize application
@@ -206,6 +219,17 @@ function setupEventListeners() {
     document.getElementById('load-pending-enrollments').addEventListener('click', loadPendingEnrollments);
     document.getElementById('load-all-enrollments').addEventListener('click', loadAllEnrollments);
 
+    // Refresh buttons
+    document.getElementById('refresh-enrollments').addEventListener('click', async () => {
+        console.log('🔄 Manual refresh of enrollments requested');
+        await loadEnrollments();
+    });
+    
+    document.getElementById('refresh-certificates').addEventListener('click', async () => {
+        console.log('🔄 Manual refresh of certificates requested');
+        await loadCertificates();
+    });
+
     // Form validation and character counters
     setupFormValidation();
 }
@@ -260,6 +284,9 @@ async function handleLogin(e) {
             hideModal(loginModal);
             updateUIAfterLogin();
             showMessage('Login successful!', 'success');
+
+            // On login success:
+            handleLoginSuccess(data.doctor);
         } else {
             // Show specific error message
             const errorMessage = data.error || data.message || 'Invalid email or password';
@@ -349,33 +376,63 @@ async function handleRegister(e) {
 function checkAuthStatus() {
     const token = localStorage.getItem('token');
     if (token) {
-        loadUserData();
+        loadUserData().catch(error => {
+            console.error('Auth check failed, will retry:', error);
+            // Retry after 2 seconds for network issues
+            setTimeout(() => {
+                if (localStorage.getItem('token')) {
+                    loadUserData();
+                }
+            }, 2000);
+        });
     }
 }
 
 async function loadUserData() {
     try {
+        const token = localStorage.getItem('token');
+        if (!token) {
+            console.log('No token found');
+            return;
+        }
+
+        console.log('🔍 Loading user data...');
         const response = await fetch(`${API_BASE_URL}/doctors/profile`, {
             headers: {
-                'Authorization': `Bearer ${localStorage.getItem('token')}`
+                'Authorization': `Bearer ${token}`
             }
         });
 
         if (response.ok) {
             const data = await response.json();
             currentUser = data.doctor;
+            console.log('✅ User data loaded:', currentUser.name, 'Role:', currentUser.role);
             updateUIAfterLogin();
             
-            // Load hospitals first, then enrollments and certificates
+            // Load data in sequence with better error handling
+            console.log('🏥 Loading hospitals...');
             await loadHospitals();
+            
+            console.log('📋 Loading enrollments...');
             await loadEnrollments();
+            
+            console.log('📜 Loading certificates...');
             await loadCertificates();
-        } else {
+            
+            console.log('✅ All data loaded successfully');
+        } else if (response.status === 401) {
+            // Only remove token on authentication error
+            console.log('Token expired or invalid, logging out');
             localStorage.removeItem('token');
             currentUser = null;
+            // Don't reload page, just show login state
+        } else {
+            // For other errors (500, network issues), keep the token and try again later
+            console.log('Server error, keeping token for retry');
         }
     } catch (error) {
         console.error('Error loading user data:', error);
+        // Don't remove token on network errors, just log the error
     }
 }
 
@@ -668,9 +725,13 @@ async function handleEnrollment(e) {
 }
 
 async function loadEnrollments() {
-    if (!currentUser) return;
+    if (!currentUser) {
+        console.log('❌ No current user, skipping enrollments load');
+        return;
+    }
 
     try {
+        console.log('📋 Fetching enrollments for user:', currentUser.name);
         const response = await fetch(`${API_BASE_URL}/enrollments`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -678,27 +739,34 @@ async function loadEnrollments() {
         });
 
         const data = await response.json();
+        console.log('📋 Enrollments API response:', response.status, data);
 
         if (response.ok) {
             enrollments = data.enrollments;
+            console.log('📋 Loaded enrollments:', enrollments.length);
             displayEnrollments();
+        } else {
+            console.error('❌ Failed to load enrollments:', data);
         }
     } catch (error) {
-        console.error('Error loading enrollments:', error);
+        console.error('❌ Error loading enrollments:', error);
     }
 }
 
 function displayEnrollments() {
     const container = document.getElementById('enrollments-list');
+    console.log('📋 Displaying enrollments:', enrollments.length, enrollments);
     
     if (enrollments.length === 0) {
         container.innerHTML = '<p class="no-data">No enrollments found.</p>';
+        console.log('📋 No enrollments to display');
         return;
     }
 
     container.innerHTML = enrollments.map(enrollment => {
         // Use the populated hospital data from the backend
         const hospital = enrollment.hospital_id;
+        console.log('📋 Enrollment hospital data:', hospital);
         
         const startDate = new Date(enrollment.start_date).toLocaleDateString();
         const endDate = new Date(enrollment.end_date).toLocaleDateString();
@@ -720,13 +788,19 @@ function displayEnrollments() {
             </div>
         `;
     }).join('');
+    
+    console.log('📋 Enrollments displayed successfully');
 }
 
 // Certificate functions
 async function loadCertificates() {
-    if (!currentUser) return;
+    if (!currentUser) {
+        console.log('❌ No current user, skipping certificates load');
+        return;
+    }
 
     try {
+        console.log('📜 Fetching certificates for user:', currentUser.name);
         const response = await fetch(`${API_BASE_URL}/certificates`, {
             headers: {
                 'Authorization': `Bearer ${localStorage.getItem('token')}`
@@ -734,27 +808,34 @@ async function loadCertificates() {
         });
 
         const data = await response.json();
+        console.log('📜 Certificates API response:', response.status, data);
 
         if (response.ok) {
             certificates = data.certificates;
+            console.log('📜 Loaded certificates:', certificates.length);
             displayCertificates();
+        } else {
+            console.error('❌ Failed to load certificates:', data);
         }
     } catch (error) {
-        console.error('Error loading certificates:', error);
+        console.error('❌ Error loading certificates:', error);
     }
 }
 
 function displayCertificates() {
     const container = document.getElementById('certificates-list');
+    console.log('📜 Displaying certificates:', certificates.length, certificates);
     
     if (certificates.length === 0) {
         container.innerHTML = '<p class="no-data">No certificates found.</p>';
+        console.log('📜 No certificates to display');
         return;
     }
 
     container.innerHTML = certificates.map(certificate => {
         // Use the populated hospital data from the backend
         const hospital = certificate.hospital_id;
+        console.log('📜 Certificate hospital data:', hospital);
         const issueDate = new Date(certificate.issue_date).toLocaleDateString();
         
         return `
@@ -1271,6 +1352,25 @@ style.textContent = `
           max-width: 800px;
           margin-left: auto;
           margin-right: auto;
+      }
+      
+      .section-controls {
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 1rem;
+          gap: 1rem;
+      }
+      
+      .section-controls .btn {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 0.5rem 1rem;
+          font-size: 0.9rem;
+      }
+      
+      .section-controls .btn i {
+          font-size: 0.8rem;
       }
      
      .admin-controls {

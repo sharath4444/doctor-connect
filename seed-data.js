@@ -26,11 +26,10 @@ function loadScrapedHospitals() {
     }
 }
 
-// Connect to MongoDB Atlas
+// MongoDB Connection
 async function connectDB() {
     try {
-        // MongoDB Atlas connection string
-        const mongoURI = 'mongodb+srv://sharath444:Sharath123@cluster0.1u734pi.mongodb.net/doctor-connect?retryWrites=true&w=majority&appName=Cluster0';
+        const mongoURI = process.env.MONGODB_URI;
         
         await mongoose.connect(mongoURI, {
             serverSelectionTimeoutMS: 10000,
